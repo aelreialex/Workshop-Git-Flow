@@ -31,6 +31,21 @@ h3 {
 	margin: 0 auto;
 }
 
+/* Page Header */
+.page-header {
+    width: 100%;
+    background-image: url('../resources/header-background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.page-header__title {
+    padding: 8rem 0;
+    font-size: 4rem;
+    color: var(--heading-yellow)
+;}
+
 /* Characters Section */
 .characters__header {
 	background-color: var(--heading-grey);
